@@ -19,12 +19,10 @@ def press(btn):
         i += 1
 
     app.setLabel("t1", ans)
-    # app.playSound("roblox-death-sound-effect.wav")
+    app.playSound("roblox-death-sound-effect.wav")
     print(btn)
 
 def answer(btn):
-
-
     i = 0
     ans = 0
     while i < len(operation):
